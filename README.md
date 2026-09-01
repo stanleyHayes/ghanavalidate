@@ -1,6 +1,6 @@
 # GhanaValidate
 
-`GhanaValidate` is an independent, package-first Digital Ghana public-infrastructure product for deterministic Ghana-specific input normalization. Its canonical public home is `https://validate.digitalghana.dev` only after production evidence supports a lifecycle transition.
+`GhanaValidate` is an independent, package-first Digital Ghana public-infrastructure product for deterministic Ghana-specific input normalization. The public beta workbench is live at [validate.digitalghana.dev](https://validate.digitalghana.dev).
 
 It validates syntax and returns reference candidates. It never verifies identity, ownership, reachability, authenticity or legal status.
 

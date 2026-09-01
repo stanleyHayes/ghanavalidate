@@ -1,6 +1,6 @@
 # GhanaValidate execution ledger
 
-Status: Implementation — beta candidate
+Status: Public beta
 Canonical hostname: `validate.digitalghana.dev`
 
 ## Product definition gate
@@ -17,5 +17,5 @@ Canonical hostname: `validate.digitalghana.dev`
 |---|---|---|---|---|---|
 | P-0.1 | Product definition and source review | Done | Codex | — | Product definition, ADR and three-record source register; NCA/GhanaPostGPS used as reference-only facts |
 | P-0.2 | Domain contracts and fixtures | Done | Codex | P-0.1 | Versioned discriminated-result contract; five passing deterministic tests with synthetic reference records |
-| P-1.1 | Package and public workbench implementation | In progress | Codex | P-0.2 | Dependency-free runtime library and Next.js workbench build pass; browser/accessibility QA and release evidence remain |
-| P-2.1 | Production release | Blocked | Unassigned | P-1.1 | Smoke, canonical SEO/TLS, rollback and operations evidence required |
+| P-1.1 | Package and public workbench implementation | Done — API/hooks remain later scope | Codex | P-0.2 | Package/build/tests pass; production browser QA proves phone/address interaction, responsive width, portfolio fonts, safety copy and zero prohibited native controls |
+| P-2.1 | Production web release | Done — package publication remains gated | Codex | P-1.1 | CI `33522410941`; Vercel `dpl_CJ3BZZWwhWq2CSDqZs9DsFrmmAWA`; canonical TLS/SEO/assets smoke and rollback/restore passed |
