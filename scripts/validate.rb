@@ -4,7 +4,7 @@ require "json"
 require "pathname"
 
 root = Pathname.new(__dir__).parent
-required = %w[README.md AGENTS.md agent_plan.md SECURITY.md LICENSE package.json pnpm-workspace.yaml tsconfig.json src/index.ts tests/validation.test.ts apps/web/package.json apps/web/app/layout.tsx apps/web/app/page.tsx apps/web/app/validator.tsx apps/web/app/styles.css apps/web/app/icon.svg apps/web/app/opengraph-image.tsx contracts/README.md contracts/validation-result.md docs/product-definition.md docs/adr/0001-product-boundary.md docs/governance/source-register.json docs/runbooks/operations.md docs/runbooks/release-evidence.md infra/vercel.json]
+required = %w[README.md AGENTS.md agent_plan.md SECURITY.md LICENSE package.json pnpm-workspace.yaml tsconfig.json vercel.json src/index.ts tests/validation.test.ts apps/web/package.json apps/web/app/layout.tsx apps/web/app/page.tsx apps/web/app/validator.tsx apps/web/app/styles.css apps/web/app/icon.svg apps/web/app/opengraph-image.tsx contracts/README.md contracts/validation-result.md docs/product-definition.md docs/adr/0001-product-boundary.md docs/governance/source-register.json docs/runbooks/operations.md docs/runbooks/release-evidence.md infra/vercel.json]
 missing = required.reject { |path| root.join(path).file? }
 abort "missing required files: #{missing.join(', ')}" unless missing.empty?
 
