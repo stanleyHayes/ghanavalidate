@@ -1,6 +1,8 @@
 # GhanaValidate
 
-`GhanaValidate` is an independent Digital Ghana public-infrastructure product. Its canonical public home is `https://validate.digitalghana.dev` after production evidence supports a lifecycle transition.
+`GhanaValidate` is an independent, package-first Digital Ghana public-infrastructure product for deterministic Ghana-specific input normalization. Its canonical public home is `https://validate.digitalghana.dev` only after production evidence supports a lifecycle transition.
+
+It validates syntax and returns reference candidates. It never verifies identity, ownership, reachability, authenticity or legal status.
 
 ## Before implementation
 
@@ -11,4 +13,6 @@
 
 ## Verification
 
-Run `ruby scripts/validate.rb`. Product-specific checks are added to the same quality workflow as implementation lands.
+Run `pnpm install` and `pnpm check` to validate governance files, typecheck, run contract tests, build the package and produce the public site.
+
+Official references: the [NCA national numbering plan](https://nca.org.gh/numbering/) and [GhanaPostGPS format guide](https://nas.ghanapostgps.com/get-help/). They support limited format facts only; GhanaValidate does not redistribute either service's data.

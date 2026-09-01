@@ -3,14 +3,34 @@
   "product": "ghanavalidate",
   "sources": [
     {
-      "id": "definition-required",
-      "authority": null,
-      "title": "Replace after source review",
+      "id": "nca-numbering-plan",
+      "authority": "National Communications Authority, Ghana",
+      "title": "ITU-T E.164 Numbers in the National Numbering Plan",
+      "url": "https://nca.org.gh/wp-content/uploads/2021/11/NUMBERING-PLAN-FOR-GHANA.pdf",
+      "licence": "Copyright not expressly stated; facts referenced, source not redistributed",
+      "publicationDecision": "reference-only",
+      "reviewedAt": "2026-09-01",
+      "notes": "Supports country code +233 and the nine-digit national significant-number invariant. Prefix allocation is intentionally outside the first release because assignments change."
+    },
+    {
+      "id": "ghanapostgps-format",
+      "authority": "GhanaPostGPS",
+      "title": "GhanaPostGPS help and address explanation",
+      "url": "https://nas.ghanapostgps.com/get-help/",
+      "licence": "Terms apply; examples and format facts referenced, service data not copied",
+      "publicationDecision": "reference-only",
+      "reviewedAt": "2026-09-01",
+      "notes": "Supports syntax-only parsing of examples such as GA-543-0125. A syntax match never proves that an address exists, belongs to a person, or resolves to a location."
+    },
+    {
+      "id": "portfolio-brief",
+      "authority": "Digital Ghana project owner",
+      "title": "Ghana Digital Public Infrastructure Project Portfolio",
       "url": null,
-      "licence": "unknown",
-      "publicationDecision": "blocked",
-      "reviewedAt": null,
-      "notes": "Unknown licence blocks canonical publication."
+      "licence": "Project input supplied by owner",
+      "publicationDecision": "approved-for-requirements",
+      "reviewedAt": "2026-09-01",
+      "notes": "Defines the package-first scope, result model, adapters, acceptance tests and explicit non-verification boundary."
     }
   ]
 }

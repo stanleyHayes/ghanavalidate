@@ -1,0 +1,30 @@
+{
+  "name": "@digitalghana/validate",
+  "version": "0.1.0-beta.1",
+  "description": "Deterministic Ghana-specific syntax validation and normalization primitives",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:web": "pnpm --dir apps/web build",
+    "dev": "pnpm --dir apps/web dev",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "validate": "ruby scripts/validate.rb",
+    "check": "pnpm validate && pnpm typecheck && pnpm test && pnpm build && pnpm build:web"
+  },
+  "devDependencies": {
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  },
+  "engines": { "node": ">=20" },
+  "packageManager": "pnpm@10.17.1"
+}

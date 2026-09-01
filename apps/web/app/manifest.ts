@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function manifest(): MetadataRoute.Manifest { return { name: "GhanaValidate", short_name: "GhanaValidate", description: "Ghana-specific syntax validation and normalization primitives.", start_url: "/", display: "standalone", background_color: "#f4f1e8", theme_color: "#10231a", icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }] }; }
