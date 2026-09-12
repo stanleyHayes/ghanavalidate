@@ -1,0 +1,20 @@
+GhanaValidate
+
+Copyright 2026 Digital Ghana contributors
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+Referenced source documents and third-party datasets retain their own rights and
+are not relicensed by inclusion here. GhanaValidate cites external authorities —
+including the National Communications Authority's national numbering plan and
+the GhanaPostGPS address-format guidance — for limited format facts only; it
+does not redistribute those documents or any service's data, and the Apache-2.0
+grant above applies solely to this project's own code, configuration and
+documentation. Where a referenced source's terms are unknown or more
+restrictive, those terms govern that source. Provenance for every external
+reference is recorded in docs/governance/source-register.json.
+
+GhanaValidate is an independent open-source project. It is not operated by,
+endorsed by, or affiliated with the Government of Ghana or any of its agencies.
